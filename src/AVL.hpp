@@ -25,16 +25,10 @@ private:
 
     int height(Node* node)
     {
-        int t;
         if (node == NULL)
-        {
             return -1;
-        }
-        else
-        {
-            t = node->height;
-            return t;
-        }
+
+        return node->height;
     }
 
     Node* rotate_l(Node*& root)
