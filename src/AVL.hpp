@@ -185,7 +185,6 @@ private:
     }
 
 public:
-
     AVL()
         : root(nullptr)
     {}
